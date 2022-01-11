@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>bmi計算機</title>
+<style>
+div{text-align: center;border:2px orange solid;box-shadow:blue 10px 10px 5px;border-style:groove;border-radius:10px;}
+</style>
+</head>
+<body>
+<h1 style="text-align: center;">bmi計算機</h1>
+<div class="container">
+<div class="row">
+    <div class="col-sm-4">
+
+    </div>
+<div class="col-sm-8">
+    <form oninput="x.value=parseInt(a.value)/[parseInt(b.value)*parseInt(b.value)]*parseInt(c.value)">
+        體重<input type="number" id="a" value="0" step="0.01">KG/身高
+        <input type="number" id="b" value="1" step="0.01">CM<br>
+        <input type="number" id="c" value="10000" step="0.01">
+        <br>                                                                           
+        <output name="x" for="a b c"></output>
+      </form>
+     </div>
+</div>
+</div>
+</body>
+</html>
